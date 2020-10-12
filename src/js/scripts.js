@@ -35,3 +35,16 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+const reverseString = (string) => {
+  return string.split('').reverse().join('');
+}
+
+$(document).ready(() => {
+  let email = reverseString('uakcid.pilihp');
+  email += reverseString('moc.liamnotorp@');
+  $('#email').text(email).attr('href','mailto:'+email);
+
+  let phoneNumber = reverseString('4928-723 )877(');
+  $('#phone-number').text(phoneNumber);
+})
