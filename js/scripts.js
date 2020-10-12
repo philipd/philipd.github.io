@@ -51,5 +51,5 @@ $(document).ready(() => {
   $('#email').text(email).attr('href','mailto:'+email);
 
   let phoneNumber = reverseString('4928-723 )877(');
-  $('#phone-number').text(phoneNumber);
+  $('#phone-number').text(phoneNumber).attr('href','tel:'+phoneNumber);
 })
