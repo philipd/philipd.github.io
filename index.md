@@ -74,7 +74,7 @@ Edmonton, Alberta
  #### Kirishima, Japan
  #### Assistant Language Teacher (August 2016 - July 2017)
  - Collaborated with local English teachers in planning and delivering lessons
-- Presented on Canadian culture and the English language
+ - Presented on Canadian culture and the English language
  - Provided feeedback on students' homework assignments
 
 
