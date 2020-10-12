@@ -27,9 +27,9 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
+                span.d-block.d-lg-none Philip Dickau
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='')
+                    //- img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='')
             button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarSupportedContent.collapse.navbar-collapse
@@ -37,15 +37,17 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    //- li.nav-item
+                    //-     a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    //- li.nav-item
+                    //-     a.nav-link.js-scroll-trigger(href='#awards') Awards
 
         // Page Content
         .container-fluid.p-0
@@ -54,65 +56,139 @@ html(lang='en')
             section#about.resume-section
                 .resume-section-content
                     h1.mb-0
-                        | Clarence 
-                        span.text-primary Taylor
+                        | Philip 
+                        span.text-primary Dickau
                     .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
+                        //- | (555) 555-5555 
+                        a(href='mailto:i-dislike-spam@mailinator.com') i-dislike-spam@mailinator.com
                     p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                        | I'm a developer.
                     .social-icons
                         a.social-icon(href='#')
                             i.fab.fa-linkedin-in
                         a.social-icon(href='#')
                             i.fab.fa-github
-                        a.social-icon(href='#')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#')
-                            i.fab.fa-facebook-f
+                        //- a.social-icon(href='#')
+                        //-     i.fab.fa-twitter
+                        //- a.social-icon(href='#')
+                        //-     i.fab.fa-facebook-f
 
             hr.m-0
 
-            // Experience
-            section#experience.resume-section
-               .resume-section-content
-                    h2.mb-5 Experience
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul
+                      li JavaScript 
+                      li React 
+                      li Chai 
+                      li Mocha 
+                      li Jest 
+                      li Storybook 
+                      li Cypress 
+                      li Node 
+                      li Express 
+                      li CSS 
+                      li HTML 
+                      li jQuery 
+                      li SQL 
+                      li Python 
+                      li Java 
+                      li C 
+                      li Unity 
+                      li Bash 
+                      li Ubuntu
+                        //- li.list-inline-item
+                        //-     i.fab.fa-html5
+                        //- li.list-inline-item
+                        //-     i.fab.fa-css3-alt
+                        //- li.list-inline-item
+                        //-     i.fab.fa-js-square
+                        //- li.list-inline-item
+                        //-     i.fab.fa-angular
+                        //- li.list-inline-item
+                        //-     i.fab.fa-react
+                        //- li.list-inline-item
+                        //-     i.fab.fa-node-js
+                        //- li.list-inline-item
+                        //-     i.fab.fa-sass
+                        //- li.list-inline-item
+                        //-     i.fab.fa-less
+                        //- li.list-inline-item
+                        //-     i.fab.fa-wordpress
+                        //- li.list-inline-item
+                        //-     i.fab.fa-gulp
+                        //- li.list-inline-item
+                        //-     i.fab.fa-grunt
+                        //- li.list-inline-item
+                        //-     i.fab.fa-npm
+                    //- .subheading.mb-3 Workflow
+                    //- ul.fa-ul.mb-0
+                    //-     li
+                    //-         span.fa-li
+                    //-             i.fas.fa-check
+                    //-         | Mobile-First, Responsive Design
+                    //-     li
+                    //-         span.fa-li
+                    //-             i.fas.fa-check
+                    //-         | Cross Browser Testing & Debugging
+                    //-     li
+                    //-         span.fa-li
+                    //-             i.fas.fa-check
+                    //-         | Cross Functional Teams
+                    //-     li
+                    //-         span.fa-li
+                    //-             i.fas.fa-check
+                    //-         | Agile Development & Scrum
+
+            hr.m-0
+
+            // Projects
+            section#projects.resume-section
+                .resume-section-content
+                    h2.mb-5 Projects
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                            h3.mb-0 
+                              a(href='https://github.com/philipd/story-creator') Story Creator
+                            p Story Creator is a multi-page database web application I built with one of my classmates as mid-term project for the Lighthouse Labs Web Development Bootcamp. It provides a platform for collaborative story-telling; users can begin stories, contribute to other users' stories, select from submitted contributions to one's own story, and upvote other users' contributions. It utilizes Express, PostGresQL, and jQuery.
                         .flex-shrink-0
-                            span.text-primary March 2013 - Present
-
+                            span.text-primary 2020
+                            
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                            h3.mb-0 
+                              a(href='https://twitter.com/uselesswordbot') Useless Word Bot
+                            p The Useless Word Bot was a Python script that generated words "not yet in the English language" and posted one to Twitter every ten minutes. It utilized a technique similar to Markov Chaining to produce strings which, despite conforming to common patterns of letters in English, were nevertheless not actual English words. While the bot stopped tweeting years ago after Twitter updated their API, its account is still online.
                         .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
-
+                            span.text-primary 2013
+                            
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+                            h3.mb-0 
+                              a(href='https://github.com/philipd/payroll-utility') Payroll Utility
+                            p While doing administrative work for an independent resto-cafe in 2013, I wrote a command-line utility in Python that interfaced with our workforce management application's API to flag possible timesheet errors and calculate tip distributions.
                         .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
+                            span.text-primary 2013
+                            
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                            h3.mb-0 
+                              a(href='https://github.com/philipd/oceanic-feeling') Oceanic Feeling
+                            p For Edmonton's 2011 *Sea of Sound* festival, I used Processing—a Java-based language and framework for multimedia artists—to develop a program that generated live visuals based on input from a laptop webcam and MIDI controller. For the performance, I improvised live electronic music while my collaborator manipulated the visuals. 3D glasses were distributed to members of the audience.
                         .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
+                            span.text-primary 2011
+                            
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                              a(href='https://github.com/philipd/crossbones') Crossbones
+                            p As my capstone project for NAIT's NET diploma program in 2011, I collaborated with a classmate to build a peer-to-peer audio streaming application in C# for Windows 7 which allowed users on a local area network to browse each other's shared folders and listen to audio files.
+                        .flex-shrink-0
+                            span.text-primary 2011
 
             hr.m-0
 
@@ -123,128 +199,177 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
+                            h3.mb-0 Lighthouse Labs
+                            .subheading.mb-3 Full-Stack Web Development Diploma
+                            //- div Computer Science - Web Development Track
+                            ul
+                              li Pending
                         .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                            //- span.text-primary August 2020 - November 2020
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
+                            h3.mb-0 International House Vancouver
+                            .subheading.mb-3 Cambridge University Certificate in English Language Teaching to Adults
+                            ul
+                              li Studied student-centered teaching methodology and language systems
+                              li Achieved the highest performance standard, "A"
                         .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                            //- span.text-primary August 2002 - May 2006
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 The Northern Alberta Institute of Technology
+                            .subheading.mb-3 Network Engineering Technology Diploma
+                            ul
+                              li Studied electricity, electronics, digital circuits, SQL, .NET, C#, bash, TCP/IP, Linux, Windows Server, network security, etc.
+                              li Graduated with Honours
+                        .flex-shrink-0
+                            //- span.text-primary August 2002 - May 2006
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Taylor University College
+                            .subheading.mb-3 Bachelor of Arts, Psychology
+                            ul
+                              li Achieved multiple scholarships and awards for academic excellence
+                              li Elected as Budget Manager for Student Council
+                              li Graduated with a 3.46 cumulative GPA
+                        .flex-shrink-0
+                            //- span.text-primary August 2002 - May 2006
 
             hr.m-0
 
-            // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Functional Teams
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile Development & Scrum
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 ESL Teacher
+                            .subheading.mb-3 International House Vancouver
+                            p Vancouver, B.C.
+                            ul
+                              li Coached groups of primarily adult English language learners
+                              li Designed inventive classroom activities and assignments
+                              li Presented at the Spring 2019 professional development day on "Promoting Inclusivity Through Course Content"
+                              li Attained 90% positive ratings from students in 2019
+                              li Earned two unscheduled pay raises
+                        .flex-shrink-0
+                            span.text-primary December 2017 - November 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Assistant Language Teacher
+                            .subheading.mb-3 Kirishima City Board of Education
+                            p Kirishima, Japan
+                            ul
+                              li Collaborated with local English teachers in planning and delivering lessons
+                              li Presented on Canadian culture and the English language
+                              li Provided feeedback on students' homework assignments
+                        .flex-shrink-0
+                            span.text-primary August 2016 - July 2017
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Supervisor
+                            h3.mb-0 Bartender
+                            .subheading.mb-3 The Sugarbowl
+                            p Edmonton, Alberta
+                            ul
+                              li Provided outstanding customer experiences in a high-pressure environment
+                              li Ensured a high caliber of customer service and hospitality from staff 
+                              li Resolved customer complaints considerately and tactfully 
+                              li Mentored and trained junior employees
+                        .flex-shrink-0
+                            div.text-primary August 2015 - May 2016
+                            div.text-primary October 2013 - August 2015
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Assistant Manager
+                            h3.mb-0 Barista
+                            .subheading.mb-3 Leva Cappuccino Bar
+                            p Edmonton, Alberta
+                            ul
+                              li Transitioned the company's bookkeeping from Excel to Quickbooks
+                              li Introduced a web-based software solution for workforce scheduling and payroll
+                              li Created documentation to streamline daily procedures
+                              li Assisted with policy development, strategic planning, and human resources management
+                        .flex-shrink-0
+                            div.text-primary August 2012 - September 2013
+                            div.text-primary August 2010 - August 2012
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Associate Consultant
+                            h3.mb-0 Co-op Student
+                            .subheading.mb-3 Softworks Group Inc.
+                            p Edmonton, Alberta
+                            ul
+                              li Programmed new features and bug fixes to web applications for business clients
+                              li Coded in PHP, CSS, HTML, T-SQL, C#, and PowerShell
+                        .flex-shrink-0
+                            div.text-primary August 2012 - September 2013
+                            div.text-primary August 2010 - August 2012
 
             hr.m-0
 
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+            //- // Interests
+            //- section#interests.resume-section
+            //-     .resume-section-content
+            //-         h2.mb-5 Interests
+            //-         p
+            //-             | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+            //-         p.mb-0
+            //-             | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
 
-            hr.m-0
+            //- hr.m-0
 
-            // Awards
-            section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
+            //- // Awards
+            //- section#awards.resume-section
+            //-     .resume-section-content
+            //-         h2.mb-5 Awards & Certifications
+            //-         ul.fa-ul.mb-0
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | Google Analytics Certified Developer
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | Mobile Web Specialist - Google Certification
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 1
+            //-                 sup st 
+            //-                 | Place - University of Colorado Boulder - Emerging Tech Competition 2009
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 1
+            //-                 sup st 
+            //-                 | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 2
+            //-                 sup nd 
+            //-                 | Place - University of Colorado Boulder - Emerging Tech Competition 2008
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 1
+            //-                 sup st 
+            //-                 | Place - James Buchanan High School - Hackathon 2006
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 3
+            //-                 sup rd 
+            //-                 | Place - James Buchanan High School - Hackathon 2005
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
