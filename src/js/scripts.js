@@ -41,8 +41,8 @@ const reverseString = (string) => {
 }
 
 $(document).ready(() => {
-  let email = reverseString('uakcid.pilihp');
-  email += reverseString('moc.liamnotorp@');
+  let email = reverseString('pilihp');
+  email += reverseString('moc.uakcidpilihp@');
   $('#email').text(email).attr('href','mailto:'+email);
 
   let phoneNumber = reverseString('4928 723 877 1+');
