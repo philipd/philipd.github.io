@@ -6,7 +6,13 @@
 */
 @font-face {
   font-family: "Atkinson";
-  src: url("../../assets/fonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff"), url("../../assets/fonts/Atkinson-Hyperlegible-Italic-102.woff") format("woff"), url("../../assets/fonts/Atkinson-Hyperlegible-Bold-102.woff") format("woff"), url("../../assets/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff") format("woff");
+  src: url("../../assets/fonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Atkinson";
+  src: url("../../assets/fonts/Atkinson-Hyperlegible-Bold-102.woff") format("woff");
+  font-weight: bold;
 }
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -365,7 +371,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Atkinson", "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2;
   color: #343a40;
 }
@@ -10015,6 +10021,15 @@ body {
     padding-left: 17rem;
   }
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
 h1 {
   line-height: 1;
 }
