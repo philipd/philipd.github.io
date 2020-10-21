@@ -20,7 +20,7 @@ The Useless Word Bot was a Python script that generated words "not yet in the En
 
 ### [Payroll Utility](https://github.com/philipd/payroll-utility)
 
-While working as an assistant manager for an independent resto-cafe in 2012, I wrote a command-line utility in Python that interfaced with our workforce management application's API to flag possible timesheet errors and calculate tip distributions.
+While doing administrative work for an independent business in 2012, I wrote a command-line utility in Python that interfaced with their workforce management application's API to flag possible timesheet errors and perform additional calculations.
 
 ### [Oceanic Feeling](https://github.com/philipd/oceanic-feeling)
 
