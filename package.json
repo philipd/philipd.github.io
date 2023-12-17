@@ -10,7 +10,7 @@
         "build:scss": "node scripts/build-scss.js",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
-        "deploy": "npm run build && git subtree push --prefix dist origin gh-pages",
+        "deploy": "git subtree push --prefix dist origin gh-pages",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
